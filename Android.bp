@@ -34,6 +34,7 @@ cc_library_headers {
 
 cc_library {
     name: "libhwy",
+    vendor_available: true,
     host_supported: true,
     sdk_version: "current",
     stl: "c++_shared",
